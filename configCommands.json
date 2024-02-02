@@ -40,7 +40,10 @@
     "animequiz": {
       "reward": 1000
     },
-    "info": {}
+    "info": {},
+    "antiout": {
+      "deltaNext": 5
+    }
   },
   "envEvents": {
     "logsbot": {
@@ -49,9 +52,7 @@
   },
   "commandUnload": [
     "busy.js",
-    "shoti.js",
     "callad.js",
-    "shoti2.js",
     "fight.js",
     "ttt.js"
   ]

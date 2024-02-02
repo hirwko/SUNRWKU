@@ -20,7 +20,7 @@ module.exports = {
     const name = userData.name;
 
     const ment = [{ id: id, tag: name }];
-    const a = "Gekko 🐉";
+    const a = "ROZI 🕊";
     const b = " + ";
     const c = "Rajveer👾";
 const e = "Male";
