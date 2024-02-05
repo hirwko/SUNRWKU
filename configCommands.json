@@ -52,8 +52,9 @@
   },
   "commandUnload": [
     "busy.js",
-    "callad.js",
     "fight.js",
-    "ttt.js"
+    "ttt.js",
+    "callad.js",
+    "roast.js"
   ]
 }
