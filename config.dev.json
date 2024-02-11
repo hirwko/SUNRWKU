@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "rajveerkobot@gmail.com",
+    "password": "9842129497",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -33,7 +33,7 @@
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "shamsu 🌸",
-  "prefix": "+",
+  "prefix": ">",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
