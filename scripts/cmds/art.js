@@ -14,7 +14,7 @@ module.exports = {
   },
   onStart: async function ({ message, api, args, event }) {
     const text = args.join(' ');
-    
+
     if (!event.messageReply || !event.messageReply.attachments || !event.messageReply.attachments[0]) {
       return message.reply("reply to image");
     }
@@ -23,13 +23,15 @@ module.exports = {
 
     const [model] = text.split('|').map((text) => text.trim());
     const puti = model || "6";
-        
-    api.setMessageReaction("⏰", event.messageID, () => {}, true);
-    const lado = `https://sandipapi.onrender.com/art2?url=${imgurl}&model=${puti}`;
 
-    message.reply("✅| Generating please wait.", async (err, info) => {
+    api.setMessageReaction("⏰", event.messageID, () => {}, true);
+    const lado = `https://sandipbaruwal.onrender.com/art?url=${imgurl}&model=${puti}`;
+
+   const baby = await require('tinyurl').shorten(lado);
+
+message.reply("✅| Generating please wait.", async (err, info) => {
       const attachment = await global.utils.getStreamFromURL(lado);
-      message.reply({
+      message.reply({  body: `${baby}`,
         attachment: attachment
       });
       let ui = info.messageID;          

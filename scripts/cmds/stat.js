@@ -52,7 +52,7 @@ module.exports = {
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
-      const imgURL= "https://i.imgur.com/MEYPUFF.jpg";
+      const imgURL= "https://i.imgur.com/vPh01iZ.gif";
       const attachment = await global.utils.getStreamFromURL(imgURL);
 
       api.sendMessage({

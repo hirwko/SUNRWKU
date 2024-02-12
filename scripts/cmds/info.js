@@ -12,7 +12,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args, message, usersData }) {
-    const imgURL = "https://i.imgur.com/MEYPUFF.jpg";
+    const imgURL = "https://i.imgur.com/AM2TZQM.gif";
     const attachment = await global.utils.getStreamFromURL(imgURL);
 
     const id = event.senderID;
@@ -20,8 +20,8 @@ module.exports = {
     const name = userData.name;
 
     const ment = [{ id: id, tag: name }];
-    const a = "ROZI 🕊";
-    const b = " + ";
+    const a = "Shamsu 🕊";
+    const b = " > ";
     const c = "Rajveer👾";
 const e = "Male";
     const d = "m.me/kyouhei8";
