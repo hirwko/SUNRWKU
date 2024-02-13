@@ -4,8 +4,8 @@ module.exports = {
   config: {
     name: "levi",
     version: "1.0",
-    author: "MILAN",
-    countDown: 5,
+    author: "Rajveer",
+    countDown: 2,
     role: 0,
     shortDescription: "",
     longDescription: "",

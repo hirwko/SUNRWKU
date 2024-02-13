@@ -12,7 +12,7 @@ module.exports = {
     version: "1.0",
     author: " Rajveer | Aayush",
     role: 0,
-    countDown: 60,
+    countDown: 2,
     longDescription: {
       en: "Get Image From Pinterest",
     },
