@@ -8,14 +8,14 @@ module.exports = {
   sentVideos: [],
 
    config: {
-     name: "jaegerist",
-     aliases: ["jae"],
-     version: "2.5",
+     name: "AMV",
+     aliases: ["amv"],
+     version: "1.0",
      role: 0,
-     author: "𝗞𝘆𝗼𝘂𝗵𝗲𝗶 𝗫 𝗝𝗮𝗲𝗴𝗲𝗿𝗶𝘀𝘁",
+     author: "𝗞𝘆𝗼𝘂𝗵𝗲𝗶",
      cooldowns: 1,
-    shortDescription: "𝗚𝗲𝘁 𝗿𝗮𝗻𝗱𝗼𝗺 𝗰𝗹𝗶𝗽𝘀 𝗯𝘆 𝗷𝗮𝗲𝗴𝗲𝗿𝗶𝘀𝘁",
-    longDescription: "𝗚𝗲𝘁 𝗿𝗮𝗻𝗱𝗼𝗺 𝗰𝗹𝗶𝗽𝘀 𝗯𝘆 𝗷𝗮𝗲𝗴𝗲𝗿𝗶𝘀𝘁",
+    shortDescription: "𝗚𝗲𝘁 𝗮 𝗿𝗮𝗻𝗱𝗼𝗺 𝗔𝗻𝗶𝗺𝗲 𝗔𝗠𝗩",
+    longDescription: "𝗚𝗲𝘁 𝗮 𝗿𝗮𝗻𝗱𝗼𝗺 𝗔𝗻𝗶𝗺𝗲 𝗔𝗠𝗩",
     category: "video",
     dependencies: {
       "fs-extra": "",
@@ -28,10 +28,10 @@ module.exports = {
     try {
       const senderID = event.senderID;
 
-      const loadingMessage = await api.sendMessage("𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗿𝗮𝗻𝗱𝗼𝗺 𝗰𝗹𝗶𝗽 𝗯𝘆 𝗷𝗮𝗲..💐", event.threadID, null, event.messageID);
+      const loadingMessage = await api.sendMessage("𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗿𝗮𝗻𝗱𝗼𝗺 𝗔𝗻𝗶𝗺𝗲 𝗔𝗠𝗩 🐢", event.threadID, null, event.messageID);
 
       const apiKey = "AIzaSyAO1tuGus4-S8RJID51f8WJAM7LXz1tVNc";
-      const playlistId = "PLaw6FN8v2PpCHEq9Xx-NZXhQi46neeMWl";
+      const playlistId = "PLaw6FN8v2PpB-Dl7vtQQEm2BJ16XEct76";
 
       const playlistUrl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${apiKey}&playlistId=${playlistId}&part=contentDetails&maxResults=50`;
       const response = await axios.get(playlistUrl);
@@ -99,7 +99,7 @@ module.exports = {
         }
 
         const message = {
-          body: '𝗛𝗲𝗿𝗲𝘀 𝘆𝗼𝘂𝗿 𝗰𝗹𝗶𝗽 𝗯𝘆 𝗷𝗮𝗲 👾',
+          body: '𝗛𝗲𝗿𝗲𝘀 𝘆𝗼𝘂𝗿 𝗿𝗮𝗻𝗱𝗼𝗺 𝗔𝗠𝗩 💐',
           attachment: fs.createReadStream(filePath)
         };
 
