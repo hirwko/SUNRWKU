@@ -10,7 +10,7 @@ module.exports = {
    config: {
      name: "jaegerist",
      aliases: ["jae"],
-     version: "1.0",
+     version: "2.5",
      role: 0,
      author: "𝗞𝘆𝗼𝘂𝗵𝗲𝗶 𝗫 𝗝𝗮𝗲𝗴𝗲𝗿𝗶𝘀𝘁",
      cooldowns: 1,
@@ -31,7 +31,7 @@ module.exports = {
       const loadingMessage = await api.sendMessage("𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗿𝗮𝗻𝗱𝗼𝗺 𝗰𝗹𝗶𝗽 𝗯𝘆 𝗷𝗮𝗲..💐", event.threadID, null, event.messageID);
 
       const apiKey = "AIzaSyAO1tuGus4-S8RJID51f8WJAM7LXz1tVNc";
-      const playlistId = "PLaw6FN8v2PpCHEq9Xx-NZXhQi46neeMWl&si=olbLFl4vlwSDMyAQ";
+      const playlistId = "PLaw6FN8v2PpCHEq9Xx-NZXhQi46neeMWl";
 
       const playlistUrl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${apiKey}&playlistId=${playlistId}&part=contentDetails&maxResults=50`;
       const response = await axios.get(playlistUrl);
@@ -99,7 +99,7 @@ module.exports = {
         }
 
         const message = {
-          body: '📹 | 𝗛𝗲𝗿𝗲𝘀 𝘆𝗼𝘂𝗿 𝗰𝗹𝗶𝗽 𝗯𝘆 𝗷𝗮𝗲 👾',
+          body: '𝗛𝗲𝗿𝗲𝘀 𝘆𝗼𝘂𝗿 𝗰𝗹𝗶𝗽 𝗯𝘆 𝗷𝗮𝗲 👾',
           attachment: fs.createReadStream(filePath)
         };
 
