@@ -4,7 +4,7 @@ module.exports = {
   config: {
     name: "test",
     version: "1.0",
-    author: "Rajveer--",
+    author: "Rajveer--", 
     countDown: 2,
     longDescription: {
       en: "Create an image from your text with 4 models like midjourney."
