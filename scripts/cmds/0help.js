@@ -39,25 +39,35 @@ module.exports = {
   langs: {
     en: {			help: 
       `╭───⭓『 AI 』 
-│🌸kuba 🌸gemini
-│🌸gpt 🌸sdxl 
-│🌸sdxl2 🌸imagine
+│🌸mistral 🌸gemini
+│🌸gpt 🌸sdxl 🌸xae
+│🌸sdxl2 🌸imagine 
+|🌸dalle 🌸test
+|🌸art 🌸sdxl
+|🌸sxai 🌸rashifal
+|🌸gojo 🌸levi
 ╰───────────⭔
 ╭───⭔『 ANIME 』
 │🌸waifu 🌸SAUCE
 │🌸manga 🌸animeinfo
+|🌸animeme animegif
+|🌸animeimg 🌸animefy
+|🌸aniquotes 🌸anistatus
+|🌸aniwatch 🌸aniquote
+|🌸hvd 🌸aniblur
 ╰───────────⭔
 ╭───⭔『 STUDY 』
-│🌸Dictionary 🌸summarize
-│🌸autoseen 🌸define
+│🌸element
 ╰───────────⭔
 ╭───⭔『 TOOLS 』
-│🌸caller 🌸pm 🌸clean 
+│🌸callad 🌸pm 🌸clean 
 │🌸autoseen 🌸memstole
 │🌸clear 🌸translate 
 │🌸imgur 🌸weather 
 │🌸profile 🌸removebg
-│🌸v2a 🌸wallapaper
+│🌸v2a 🌸pic
+|🌸qrcode 🌸ocr
+|🌸prompt 🌸ai
 │🌸time 🌸extract
 │🌸jsontomongodb
 │🌸appstore 🌸teach
@@ -74,16 +84,18 @@ module.exports = {
 │🌸onlyadminbox 🌸antiout
 │🌸setname 🌸autosetname
 │🌸setleave 🌸setwelcome
-│🌸topexp 🌸groupinfo
+│🌸topexp 🌸boxinfo
+|🌸setprefix 🌸setlang
 │🌸grouptag 🌸supportgc
 ╰──────────────⭔
 ╭───⭔『 OWNER 』
 │🌸setrole 🌸admin
-│🌸user 🌸approve 
+│🌸adduser 🌸approve 
 │🌸pending 🌸accept
 │🌸file 🌸ban 🌸thread
 │🌸sendnoti 🌸adc 🌸kera
 │🌸getfbstate 🌸join 🌸war
+|🌸adboxonly 🌸adminonly
 │🌸leaveall 🌸listbox
 │🌸notice 🌸notification
 ╰───────────⭔
@@ -94,18 +106,21 @@ module.exports = {
 ╰───────────⭔
 ╭───⭔『 FUN 』
 │🌸emojimix 🌸emoji
-│🌸pet 🌸say 
-│🌸jane 🌸snoop
+│🌸pet 🌸say 🌸bet
+|🌸quiz 🌸ronb
+|🌸sauce 🌸timer
+│🌸jane 🌸snoop 🌸fun
 │🌸pair 🌸cdp
-│🌸simsimi 🌸randomname
+|🌸marry 🌸karma
+|🌸myquote 🌸ara
 │🌸fight 🌸slap
 │🌸emojimean 🌸pair
 │🌸calculate 🌸anya2
 │🌸rizz 🌸roast
-│🌸gojo 🌸hack
+|🌸hack 🌸nsfw
 ╰───────────⭔
 ╭───⭔『 BANK 』
-│🌸Bank 🌸work 
+│🌸Bank  
 │🌸balance 🌸daily
 ╰───────────⭔
 ╭───⭔『 MEDIA 』
@@ -113,10 +128,17 @@ module.exports = {
 │🌸song 🌸videofb
 │🌸ytb 🌸lyrics
 │🌸Movie 🌸youtube
-│🌸shoti 🌸shoti2
+│🌸shoti 🌸waifu
 │🌸tiktok 🌸fun
+|🌸entertain 🌸waifey
 │🌸aniedit 🌸aniedit2
-│🌸animeme 🌸entertain
+|🌸amv 🌸fyp 🌸valorant
+|🌸entertain 🌸video
+|🌸spotify 🌸randomedit
+|🌸myquote 🌸sad 🌸google
+|🌸v2a 🌸redit 🌸memevideo
+|🌸playlist 🌸music
+|🌸animevideo
 ╰───────────⭔
 ╭───⭔『 RANK 』
 │🌸rank 🌸rankup
@@ -128,8 +150,10 @@ module.exports = {
 │🌸setalias 🌸backupdata
 │🌸help 🌸del 🌸eval
 │🌸sorthelp 🌸status
-│🌸ping 🌸cmd 
-│🌸loadconfig 🌸offbot
+│🌸ping 🌸cmd 🌸stat
+|🌸up 🌸adduser 🌸adboxonly
+|🌸adminonly 🌸autoseen
+│🌸loadconfig 🌸autoreply
 │🌸restart 🌸setavt
 │🌸setlang 🌸shell
 │🌸update 🌸event
@@ -137,7 +161,6 @@ module.exports = {
 ╭───⭔『 GAME 』
 │🌸bal 🌸guessnumb
 │🌸quiz 🌸slot 
-│🌸Sicbo 🌸choose
 │🌸wordgame 🌸rps
 │🌸tod 🌸country
 ╰───────────⭔
@@ -148,7 +171,7 @@ module.exports = {
 │ the usage:) 😉
 ╰───────────⭔
 ╭─────⭔
-│『 Rajveer‌』
+│『 Rajveer‌ 』
 ╰────────:)`,
       help2: "%1◊\n│ » Currently, the bot has %2 commands that can be used\n│ » Total Cmds: %3 \n│ %4\n╰─────────────◊",
       commandNotFound: "Command \"%1\" does not exist",

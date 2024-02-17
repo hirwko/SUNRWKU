@@ -6,7 +6,7 @@ module.exports = {
     name: 'gojo',
     aliases: [],
     version: '1.0.0',
-    author: 'Rajveer',
+    author: 'Rajveer--',
     countDown: 0,
     role: 0,
     shortDescription: {

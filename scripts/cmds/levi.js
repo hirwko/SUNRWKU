@@ -3,7 +3,7 @@ const axios = require('axios');
 module.exports = {
   config: {
     name: "levi",
-    version: "1.0",
+    version: "9.0",
     author: "Rajveer",
     countDown: 2,
     role: 0,

@@ -11,59 +11,38 @@ module.exports = {
     countDown: 15,
     role: 0,
     shortDescription: "Generate images by Dalle3",
-    longDescription: "Generate images by Dalle3",
-    category: "𝗠𝗘𝗗𝗜𝗔",
+    longDescription: "Generate images by Unofficial Dalle3",
+    category: "download",
     guide: {
       en: "{pn} prompt"
     }
   },
 
-  onStart: async function ({ api, message, args }) {
+  onStart: async function ({ message, args }) {
     try {
-      const p = args.join(" ");
+      const k = args.join("");
 
-      const w = await message.reply("Please wait...");
+       const waitingMessage = await message.reply("Processing your request, please wait...🐢");
 
-      //const cookieString = await fs.readFile('dallekey.json', 'utf-8');
-       //const cookie = JSON.parse(cookieString);
+      const res = await axios.get(`https://www.annie-jarif.repl.co/dalle?prompt=${encodeURIComponent(k)}`);
+      const data = res.data.data.picUrlList;
+      const imgData = [];
 
-      const data2 = {
-        prompt: p,
-        cookie: "14cPQTHxFV37GDdKI6prtdnTmoCNVGXeGW9s1r1MQ32xfezsu1Jjei8Z6Q_A1BkPt4OJY26JmPe3KBDPGyV3ErsY-ZVDfF69yZxkWX4zv6sZVDv5-WF42fZ-Zs9UWt4suSc3Fxx_raVky5g9zMDfykMWIjASbrUQwu5meDEgR2R_Tylj1Y7jbnEZOQTH8zaZ49Iwb8E3yQSxxMX8cxPyjGUSPMJ6Y4Io5m7XIXeWhAsc"
-
-        
-      };
-
-      const config = {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      };
-
-      const response = await axios.post('https://project-dallee3.onrender.com/dalle', data2, config);
-
-      if (response.status === 200) {
-        const imageUrls = response.data.image_urls.filter(url => !url.endsWith('.svg'));
-        const imgData = [];
-
-        for (let i = 0; i < imageUrls.length; i++) {
-          const imgResponse = await axios.get(imageUrls[i], { responseType: 'arraybuffer' });
-          const imgPath = path.join(__dirname, 'cache', `${i + 1}.jpg`);
-          await fs.outputFile(imgPath, imgResponse.data);
-          imgData.push(fs.createReadStream(imgPath));
-        }
-
-        await api.unsendMessage(w.messageID);
-
-        await message.reply({
-          body: `✅ | Generated`,
-          attachment: imgData
-        });
-      } else {
-        throw new Error("Non-200 status code received");
+      for (let i = 0; i < data.length; i++) {
+        const imgResponse = await axios.get(data[i], { responseType: 'arraybuffer' });
+        const imgPath = path.join(__dirname, 'tmp', `${i + 1}.jpg`);
+        await fs.outputFile(imgPath, imgResponse.data);
+        imgData.push(fs.createReadStream(imgPath));
       }
+
+      await message.reply({
+        attachment: imgData
+      });
+
+      await fs.remove(path.join(__dirname, 'tmp'));
     } catch (error) {
-      return message.reply("Redirect failed! Most probably bad prompt.");
+      console.error(error);
+      return message.reply(error.message);
     }
   }
-}
+};
