@@ -20,11 +20,6 @@
   },
   "adminBot": [
     "100079713053098",
-    "100078051456422",
-    "100056464039574",
-    "100071545453965",
-    "100077537545323",
-    "100071117697213",
     "61555809581751"
   ],
   "whiteListMode": {
@@ -32,7 +27,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "shamsu 🌸",
+  "nickNameBot": "Cloudie 🐢💚",
   "prefix": ">",
   "database": {
     "type": "sqlite",
