@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    name: "hvd2",
+    name: "hvd",
     aliases: ["hvdo"],
     version: "1.0",
     author: "Rajveer",
