@@ -98,6 +98,7 @@ module.exports = {
 |🌸adboxonly 🌸adminonly
 │🌸leaveall 🌸listbox
 │🌸notice 🌸notification
+|🌸cmd install
 ╰───────────⭔
 ╭───⭔『 IMAGE 』
 │🌸avatar 🌸fb
