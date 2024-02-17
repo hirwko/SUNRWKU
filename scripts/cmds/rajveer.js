@@ -1,11 +1,12 @@
 const axios = require('axios');
-
+//do not stole this cmd or Gban
 module.exports = {
   config: {
-    name: "mistral",
+    name: "rajveer",
+    setalias: "kyouhei",
     author: "Rajveer--",//api by rajveer
-    version: "2.5
-",
+    
+    version: "2.5",
     countDown: 5,
     role: 0,
     category: "Ai",
@@ -16,7 +17,7 @@ module.exports = {
   onStart: async function ({ api, event, args }) {
     try {
       if (!args[0]) {
-        return api.sendMessage("Please provide a prompt for Mistral.", event.threadID);
+        return api.sendMessage("rajveer lae prompt deh...", event.threadID);
       }
 
       const prompt = encodeURIComponent(args.join(" "));

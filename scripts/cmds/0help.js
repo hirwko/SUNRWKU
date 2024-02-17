@@ -39,7 +39,7 @@ module.exports = {
   langs: {
     en: {			help: 
       `╭───⭓『 AI 』 
-│🌸mistral 🌸gemini
+│🌸Rajveer(kyouhei) 🌸gemini
 │🌸gpt 🌸sdxl 🌸xae
 │🌸sdxl2 🌸imagine 
 |🌸dalle 🌸test
