@@ -136,7 +136,7 @@ module.exports = {
 |🌸amv 🌸fyp 🌸valorant
 |🌸entertain 🌸video
 |🌸spotify 🌸randomedit
-|🌸myquote 🌸sad 🌸google
+|🌸myquote 🌸sad
 |🌸v2a 🌸redit 🌸memevideo
 |🌸playlist 🌸music
 |🌸animevideo

@@ -1,4 +1,4 @@
-!cmd install pm.js module.exports = {
+module.exports = {
   config: {
     name: "pm",
     aliases: ["privatemessage"],
@@ -41,5 +41,5 @@
         event.threadID
       );
     });
-  }
+  } 
 };
