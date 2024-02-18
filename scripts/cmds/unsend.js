@@ -1,7 +1,7 @@
 module.exports = {
 	config: {
 		name: "unsend",
-    setalias: "un"
+    setalias: "un",
 		version: "1.1",
 		author: "NTKhang",
 		countDown: 5,
