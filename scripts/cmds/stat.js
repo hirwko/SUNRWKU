@@ -48,11 +48,11 @@ module.exports = {
 
       let pingStatus = "Not smooth throw your router, buddy";
       if (ping < 400) {
-        pingStatus = "Smooth like your tiny fingers";
+        pingStatus = "Smooth like your tiny cat";
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
-      const imgURL= "https://i.imgur.com/vPh01iZ.gif";
+      const imgURL= "https://imgur.com/INKhhby.gif";
       const attachment = await global.utils.getStreamFromURL(imgURL);
 
       api.sendMessage({

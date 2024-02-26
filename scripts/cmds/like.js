@@ -1,23 +1,21 @@
 module.exports = {
  config: {
-   name: "prefix",
+   name: "👍",
    version: "1.0",
-   author: "Rajveer",
+   author: "SUNRWKU!! 🐟",
    countDown: 5,
    role: 0,
    shortDescription: "no prefix",
    longDescription: "no prefix",
-   category: "auto 🪐",
+   category: "no prefix",
  },
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "prefix") {
+ if (event.body && event.body.toLowerCase() === "👍") {
  return message.reply({
- body: `
-Yo, my prefix is [  >  ]\n
-`,
- attachment: await global.utils.getStreamFromURL("https://imgur.com/9xU0Yfu.gif")
+ body: "👍",
+ attachment: await global.utils.getStreamFromURL("https://imgur.com/SDabX9S.gif")
  });
  }
  }
