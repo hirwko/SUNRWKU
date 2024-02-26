@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete ="「🐐 | GoatBot」";
+const doNotDelete ="「🐟 | SUNRWKU!!」";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -39,131 +39,131 @@ module.exports = {
   langs: {
     en: {			help: 
       `╭───⭓『 AI 』 
-│🌸Rajveer(kyouhei) 🌸gemini
-│🌸gpt 🌸sdxl 🌸xae
-│🌸sdxl2 🌸imagine 
-|🌸dalle 🌸test
-|🌸art 🌸sdxl
-|🌸sxai 🌸rashifal
-|🌸gojo 🌸levi
+│🐟Rajveer(kyouhei) 🐟gemini
+│🐟gpt 🐟sdxl 🐟xae
+│🐟sdxl2 🐟imagine 
+|🐟dalle 🐟test
+|🐟art 🐟sdxl
+|🐟sxai 🐟rashifal
+|🐟gojo 🐟levi
 ╰───────────⭔
 ╭───⭔『 ANIME 』
-│🌸waifu 🌸SAUCE
-│🌸manga 🌸animeinfo
-|🌸animeme animegif
-|🌸animeimg 🌸animefy
-|🌸aniquotes 🌸anistatus
-|🌸aniwatch 🌸aniquote
-|🌸hvd 🌸aniblur
+│🐟waifu 🐟SAUCE
+│🐟manga 🐟animeinfo
+|🐟animeme 🐟animegif
+|🐟animeimg 🐟animefy
+|🐟aniquotes 🐟anistatus
+|🐟aniwatch 🐟aniquote
+|🐟hvd 🐟aniblur
 ╰───────────⭔
 ╭───⭔『 STUDY 』
-│🌸element
+│🐟element
 ╰───────────⭔
 ╭───⭔『 TOOLS 』
-│🌸callad 🌸pm 🌸clean 
-│🌸autoseen 🌸memstole
-│🌸clear 🌸translate 
-│🌸imgur 🌸weather 
-│🌸profile 🌸removebg
-│🌸v2a 🌸pic
-|🌸qrcode 🌸ocr
-|🌸prompt 🌸ai
-│🌸time 🌸extract
-│🌸jsontomongodb
-│🌸appstore 🌸teach
-│🌸jsontosqlite🌸pin
+│🐟callad 🐟pm 🐟clean 
+│🐟autoseen 🐟memstole
+│🐟clear 🐟translate 
+│🐟imgur 🐟weather 
+│🐟profile 🐟removebg
+│🐟v2a 🐟pic
+|🐟qrcode 🐟ocr
+|🐟prompt 🐟ai
+│🐟time 🐟extract
+│🐟jsontomongodb
+│🐟appstore 🐟teach
+│🐟jsontosqlite 🐟pin
 ╰───────────⭔
 ╭───⭔『 GROUP CHAT』
-│🌸Filteruser 🌸All 
-│🌸kick 🌸uid 🌸info
-│🌸warn 🌸tid 🌸antiout
-│🌸leave 🌸count 🌸rules
-│🌸unsend 🌸badwords
-│🌸antichange 🌸setname
-│🌸adduser 🌸refresh 
-│🌸onlyadminbox 🌸antiout
-│🌸setname 🌸autosetname
-│🌸setleave 🌸setwelcome
-│🌸topexp 🌸boxinfo
-|🌸setprefix 🌸setlang
-│🌸grouptag 🌸supportgc
+│🐟Filteruser 🐟All 
+│🐟kick 🐟uid 🐟info
+│🐟warn 🐟tid 🐟antiout
+│🐟leave 🐟count 🐟rules
+│🐟unsend 🐟badwords
+│🐟antichange 🐟setname
+│🐟adduser 🐟refresh 
+│🐟onlyadminbox 🐟antiout
+│🐟setname 🐟autosetname
+│🐟setleave 🐟setwelcome
+│🐟topexp 🐟boxinfo
+|🐟setprefix 🐟setlang
+│🐟grouptag 🐟supportgc
 ╰──────────────⭔
 ╭───⭔『 OWNER 』
-│🌸setrole 🌸admin
-│🌸adduser 🌸approve 
-│🌸pending 🌸accept
-│🌸file 🌸ban 🌸thread
-│🌸sendnoti 🌸adc 🌸kera
-│🌸getfbstate 🌸join 🌸war
-|🌸adboxonly 🌸adminonly
-│🌸leaveall 🌸listbox
-│🌸notice 🌸notification
-|🌸cmd install
+│🐟setrole 🐟admin
+│🐟adduser 🐟approve 
+│🐟pending 🐟accept
+│🐟file 🐟ban 🐟thread
+│🐟sendnoti 🐟adc 🐟kera
+│🐟getfbstate 🐟join 🐟war
+|🐟adboxonly 🐟adminonly
+│🐟leaveall 🐟listbox
+│🐟notice 🐟notification
+|🐟cmd install
 ╰───────────⭔
 ╭───⭔『 IMAGE 』
-│🌸avatar 🌸fb
-│🌸banner
-│🌸pin 🌸trigger
+│🐟avatar 🐟fb
+│🐟banner
+│🐟pin 🐟trigger
 ╰───────────⭔
 ╭───⭔『 FUN 』
-│🌸emojimix 🌸emoji
-│🌸pet 🌸say 🌸bet
-|🌸quiz 🌸ronb
-|🌸sauce 🌸timer
-│🌸jane 🌸snoop 🌸fun
-│🌸pair 🌸cdp
-|🌸marry 🌸karma
-|🌸myquote 🌸ara
-│🌸fight 🌸slap
-│🌸emojimean 🌸pair
-│🌸calculate 🌸anya2
-│🌸rizz 🌸roast
-|🌸hack 🌸nsfw
+│🐟emojimix 🐟emoji
+│🐟pet 🐟say 🐟bet
+|🐟quiz 🐟ronb
+|🐟sauce 🐟timer
+│🐟jane 🐟snoop 🐟fun
+│🐟pair 🐟cdp
+|🐟marry 🐟karma
+|🐟myquote 🐟ara
+│🐟fight 🐟slap
+│🐟emojimean 🐟pair
+│🐟calculate 🐟anya2
+│🐟rizz 🐟roast
+|🐟hack 🐟nsfw
 ╰───────────⭔
 ╭───⭔『 BANK 』
-│🌸Bank  
-│🌸balance 🌸daily
+│🐟Bank  
+│🐟balance 🐟daily
 ╰───────────⭔
 ╭───⭔『 MEDIA 』
-│🌸play 🌸insta 
-│🌸song 🌸videofb
-│🌸ytb 🌸lyrics
-│🌸Movie 🌸youtube
-│🌸shoti 🌸waifu
-│🌸tiktok 🌸fun
-|🌸entertain 🌸waifey
-│🌸aniedit 🌸aniedit2
-|🌸amv 🌸fyp 🌸valorant
-|🌸entertain 🌸video
-|🌸spotify 🌸randomedit
-|🌸myquote 🌸sad
-|🌸v2a 🌸redit 🌸memevideo
-|🌸playlist 🌸music
-|🌸animevideo
+│🐟play 🐟insta 
+│🐟song 🐟videofb
+│🐟ytb 🐟lyrics
+│🐟Movie 🐟youtube
+│🐟shoti 🐟waifu
+│🐟tiktok 🐟fun
+|🐟entertain 🐟waifey
+│🐟aniedit 🐟aniedit2
+|🐟amv 🐟fyp 🐟valorant
+|🐟entertain 🐟video
+|🐟spotify 🐟randomedit
+|🐟myquote 🐟sad
+|🐟v2a 🐟redit 🐟memevideo
+|🐟playlist 🐟music
+|🐟animevideo
 ╰───────────⭔
 ╭───⭔『 RANK 』
-│🌸rank 🌸rankup
-│🌸setrankup
-│🌸customrankcard  
+│🐟rank 🐟rankup
+│🐟setrankup
+│🐟customrankcard  
 ╰───────────⭔
 ╭───⭔『SYSTEM 』
-│🌸setrole 🌸prefix 
-│🌸setalias 🌸backupdata
-│🌸help 🌸del 🌸eval
-│🌸sorthelp 🌸status
-│🌸ping 🌸cmd 🌸stat
-|🌸up 🌸adduser 🌸adboxonly
-|🌸adminonly 🌸autoseen
-│🌸loadconfig 🌸autoreply
-│🌸restart 🌸setavt
-│🌸setlang 🌸shell
-│🌸update 🌸event
+│🐟setrole 🐟prefix 
+│🐟setalias 🐟backupdata
+│🐟help 🐟del 🐟eval
+│🐟sorthelp🐟status
+│🐟ping 🐟cmd 🐟stat
+|🐟up 🐟adduser 🐟adboxonly
+|🐟adminonly 🐟autoseen
+│🐟loadconfig 🐟autoreply
+│🐟restart 🐟setavt
+│🐟setlang 🐟shell
+│🐟update 🐟event
 ╰───────────⭔ 
 ╭───⭔『 GAME 』
-│🌸bal 🌸guessnumb
-│🌸quiz 🌸slot 
-│🌸wordgame 🌸rps
-│🌸tod 🌸country
+│🐟bal 🐟guessnumb
+│🐟quiz 🐟slot 
+│🐟wordgame 🐟rps
+│🐟tod 🐟country
 ╰───────────⭔
 ╭───⭔『Enjoy😉 』
 │ » Total cmds: [ %4 ].
@@ -178,7 +178,7 @@ module.exports = {
       commandNotFound: "Command \"%1\" does not exist",
       getInfoCommand: "◊ ─── NAME ──── ◊\n » %1\n◊ ─── INFO ─── ◊\n » Author: %8\n » Description: %2\n\◊ ─── Usage ─── ◊\n%9\n◊───────◊",
       onlyInfo: "◊── INFO ────◊\n│ Command name: %1\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n◊─────────────◊",
-      onlyUsage: "◊── USAGE ────◊\n│%1\n🌸─────────────◊",
+      onlyUsage: "◊── USAGE ────◊\n│%1\n🐟─────────────◊",
       onlyAlias: "◊── ALIAS ────◊\n│ Other names: %1\n│ Other names in your group: %2\n◊─────────────◊",
       onlyRole: "◊── ROLE ────◊\n│%1\n◊─────────────◊",
       doNotHave: "Do not have",
