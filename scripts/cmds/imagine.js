@@ -1,11 +1,10 @@
 const axios = require('axios');
-const badWords = ["sex","hentai","pussy","gay","lesbian","lady","women","wife","husband","dick","xxx","porn","nude","sexy","🍑","🔞","👅","🫦","💋","🔥","🤒","🥵","🤭","puti","lado","ass","fuck","suck","puti","dickless","kera","banana","🍌","hot","yuri","🥒","🩸","🤤","cucumber","🖕"];
 
 module.exports = {
   config: {
     name: "imagine",
     version: "1.1",
-    author: "OtinXSandip + MILAN",
+    author: "Rajveer--",
     countDown: 10,
     role: 0,
     shortDescription: {
