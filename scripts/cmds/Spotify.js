@@ -12,7 +12,7 @@ module.exports = {
   config: {
     name: "spotify",
     version: "1.0",
-    author: "Rishad",
+    author: "Rajveer--",
     countDown: 10,
     role: 0,
     shortDescription: "Download Spotify musics by searching",
