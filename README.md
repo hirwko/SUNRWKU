@@ -14,7 +14,7 @@
 	My Facebook Account ->
 	<a href="https://www.facebook.com/kyouhei8" style="color: green;">kyouhei8</a></h3></div>
         My Bot Account ->
-	<a href="https://www.facebook.com/61556975994093" style="color: green;>61556975994093</a></h3></div>
+	<a href="https://www.facebook.com/61556975994093"
 
 - If you encounter any issues or have questions related to this REPL, please don't hesitate to reach out to me on Facebook. I'm here to assist you!
 
