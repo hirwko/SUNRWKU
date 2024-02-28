@@ -1,16 +1,23 @@
-<img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Goat Bot - Bot Chat Messenger</h1>
+<img src="https://imgur.com/MZqs3nc.gif" alt="banner">
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Sunrwku!! 🐟 Messenger chatbot Made by RAjveer, Aayush, NTkhang , Cliff, Aakhash, Izumi, Romeo, Shibam, Simran</h1>
 
-<p align="center">
-	<a href="https://nodejs.org/dist/v16.20.0">
-		<img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
-	</a>
-  <img alt="size" src="https://img.shields.io/github/repo-size/ntkhang03/Goat-Bot-V2.svg?style=flat-square&label=size">
-  <img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=code%20version&prefix=v&query=%24.version&url=https://github.com/ntkhang03/Goat-Bot-V2/raw/main/package.json&style=flat-square">
-  <img alt="visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=ntkhang3.Goat-Bot-V2">
-  <img alt="size" src="https://img.shields.io/badge/license-MIT-green?style=flat-square&color=brightgreen">
-</p>
+## Introduction
 
+#### Join us in [Random bot](https://m.me/j/Abas1UARsNUXZr8R/)🍪
+###### If you encounter any issues or difficulties, don't hesitate to reach out and ask for assistance here. Our team is here to help you with any problems you may face.
+
+
+<div align="center">
+			<h3>My Replit Account ->
+			<a href="https://replit.com/@kyouhei14" style="color: green;">@kyouhei14</a>
+				<br>
+	My Facebook Account ->
+	<a href="https://www.facebook.com/kyouhei8" style="color: green;">kyouhei8</a></h3></div>
+
+- If you encounter any issues or have questions related to this REPL, please don't hesitate to reach out to me on Facebook. I'm here to assist you!
+
+</p><h1 align="center"> Starter Guide: </h1><details><summary align="center">BIG CREDITS TO NTKHANG 🇻🇳🤝🇵🇭</summary>```js'░██████╗░░█████╗░░█████╗░████████╗'██╔════╝░██╔══██╗██╔══██╗╚══██╔══╝'██║░░██╗░██║░░██║███████║░░░██║░░░██║░░╚██╗██║░░██║██╔══██║░░░██║░░░╚██████╔╝╚█████╔╝██║░░██║░░░██║░░░░╚═════╝░░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░'𝙄 𝙝𝙤𝙥𝙚 𝙮𝙤𝙪 𝙙𝙤𝙣𝙩 𝙢𝙖𝙠𝙚 𝙖𝙨 𝙤𝙬𝙣 𝙩𝙝𝙞𝙨 𝙛𝙞𝙡𝙚𝙨,𝙞𝙢 𝙤𝙣𝙡𝙮 𝙢𝙤𝙙𝙞𝙛𝙞𝙚𝙧 𝙖𝙣𝙙 𝙩𝙝𝙚 𝙤𝙬𝙣𝙚𝙧 𝙤𝙛 𝙩𝙝𝙞𝙨 🇬​​​​​🇴​​​​​🇦​​​​​🇹​​​​​🇧​​​​​🇴​​​​​🇹​​​​​ 𝙞𝙨 𝙉𝙩𝙠𝙝𝙖𝙣𝙜'```</details>
+	
 - [📝 **Note**](#-note)
 - [🚧 **Requirement**](#-requirement)
 - [📝 **Tutorial**](#-tutorial)
@@ -24,7 +31,6 @@
 - [📸 **Screenshots**](#-screenshots)
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
-
 <hr>
 
 ## 📝 **Note**
@@ -55,20 +61,10 @@ Tutorial has been uploaded on YouTube
 ## 🛠️ **How to create new commands**
 - See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/DOCS.md)
 
-## 💭 **Support**
-If you have major coding issues with this bot, please join and ask for help.
-- https://discord.com/invite/DbyGwmkpVY (recommended)
-- https://www.facebook.com/groups/goatbot
-- https://m.me/j/Abbq0B-nmkGJUl2C
-- ~~https://t.me/gatbottt~~ (no longer supported)
-- ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. ThankThanks!***
-
 ## 📚 **Support Languages in source code**
 - Currently, the bot supports 2 languages:
 - [x] `en: English`
-- [x] `vi: Vietnamese`
 
-- Change language in `config.json` file
 - You can customize the language in the folder `languages/`, `languages/cmds/` and `languages/events/`
 
 ## 📌 **Common Problems**
@@ -175,61 +171,49 @@ If you have major coding issues with this bot, please join and ask for help.
 	<summary>
  		Home:
 	</summary>
-	<p><img src="https://i.ibb.co/HV91MbH/image.png" width="399px"></p>
-	<p><img src="https://i.ibb.co/DRr97R9/image.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/xzv6s2j/dbHome.png" width="399px"></p>
 </details>
 
 <details>
 	<summary>
  		Stats:
 	</summary>
-	<p><img src="https://i.ibb.co/NyCMYxS/image.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/zVZv9LF/dbStats.png" width="399px"></p>
 </details>
 
 <details>
 	<summary>
  		Login/Register:
 	</summary>
-	<p><img src="https://i.ibb.co/2Z2L6p4/image.png" width="399px"></p>
-	<p><img src="https://i.ibb.co/KF1ftGw/image.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/SK61MRx/dbLogin.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/1rchbb1/db-Register.png" width="399px"></p>
 </details>
 
 <details>
 	<summary>
  		Dashboard Thread:
 	</summary>
-	<p><img src="https://i.ibb.co/tHNqtyy/image.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/NK5yYwx/dbThread.png" width="399px"></p>
 </details>
 
 <details>
 	<summary>
  		Custom on/off:
 	</summary>
-	<p><img src="https://i.ibb.co/McDRhmX/image.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/mJqsP2L/dbCustom.png" width="399px"></p>
 </details>
 
 <details>
 	<summary>
  		Custom welcome message (similar with leave, rankup (coming soon), custom command (coming soon))
 	</summary>
-	<p><img src="https://i.ibb.co/6ZrQqc1/image.png" width="399px"></p>
-	<p><img src="https://i.ibb.co/G53JsXm/image.png" width="399px"></p>
+	<p><img src="https://i.ibb.co/3SyfQkz/db-Custom-Welcome.png" width="399px"></p>
 </details>
 
 ## ✨ **Copyright (C)**
 - **[NTKhang (NTKhang03)](https://github.com/ntkhang03)**
 
 ## 📜 **License**
-
-**VIETNAMESE**
-
-- ***Nếu bạn vi phạm bất kỳ quy tắc nào, bạn sẽ bị cấm sử dụng dự án của tôi***
-- Không bán mã nguồn của tôi
-- Không tự xưng là chủ sở hữu của mã nguồn của tôi
-- Không kiếm tiền từ mã nguồn của tôi (chẳng hạn như: mua bán lệnh, mua bán/cho thuê bot, kêu gọi quyên góp, v.v.)
-- Không xóa/sửa đổi credit (tên tác giả) trong mã nguồn của tôi
-
-**ENGLISH**
 
 - ***If you violate any rules, you will be banned from using my project***
 - Don't sell my source code
