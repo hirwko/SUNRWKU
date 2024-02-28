@@ -1,5 +1,5 @@
 <img src="https://i.imgur.com/K9jAXJQ.jpeg" alt="banner">
-<h1 align="center"><img src="blob:https://imgur.com/8153ec3a-fdd0-4ab7-830f-d8f159559af0" width="22px"> Sunrwku!! 🐟 Messenger chatbot Made by Rajveer🇳🇵, Aayush🇳🇵, NTkhang🇺🇸 , Cliff🏴󠁧󠁢󠁥󠁮󠁧󠁿, Aakhash🇳🇵, Izumi🇳🇵, Romeo🇧🇩, Shibam🇳🇵, Simran🇳🇵, Saklipse🏴󠁧󠁢󠁥󠁮󠁧󠁿</h1>
+<h1 align="center"><img src="https://i.pinimg.com/564x/40/29/93/402993ccfc801f7bfc445b0e9135c9da.jpg" width="22px"> Sunrwku!! 🐟 Messenger chatbot Made by Rajveer🇳🇵, Aayush🇳🇵, NTkhang🇺🇸 , Cliff🏴󠁧󠁢󠁥󠁮󠁧󠁿, Aakhash🇳🇵, Izumi🇳🇵, Romeo🇧🇩, Shibam🇳🇵, Simran🇳🇵, Saklipse🏴󠁧󠁢󠁥󠁮󠁧󠁿</h1>
 
 ## Introduction
 
