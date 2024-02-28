@@ -3,7 +3,7 @@ module.exports = {
   config: {
     name: "info",
     version: 2.0,
-    author: "OtinXSandip",
+    author: "Rajveer",
     longDescription: "info about bot and owner",
     category: "ai",
     guide: {
@@ -25,18 +25,18 @@ module.exports = {
     const c = "Rajveer🕊";
 const e = "Male";
     const d = "m.me/kyouhei8";
-const f = "yng.kyouhei";
+const f = "sunrwku";
 const g = "Norzum🤍";
 
     message.reply({ 
       body: `${name}, here is the information 🌝
-🌸 Bot's Name: ${a}
-🌸 Bot's prefix: ${b}  
-🌸 Owner: ${c}
-🌸 Gender: ${e}
-🌸 Messenger: ${d}
-🌸 Insta: ${f}
-🌸 Relationship: ${g}`,
+🐟 Bot's Name: ${a}
+🐟 Bot's prefix: ${b}  
+🐟 Owner: ${c}
+🐟 Gender: ${e}
+🐟 Messenger: ${d}
+🐟 Insta: ${f}
+🐟 Relationship: ${g}`,
 mentions: ment,
       attachment: attachment });
   }
