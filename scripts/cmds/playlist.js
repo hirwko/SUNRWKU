@@ -10,7 +10,7 @@ module.exports = {
   music: {
 
     norzum: ["PL1TrQgiilM_Y1oGwdcGdpnu_XIig_lURL"],
-    rajveer:["PLaw6FN8v2PpAPgM4IXc853GYxWX-yvsQM"]
+    rajveer:["PLaw6FN8v2PpAdkjtrcRgeTgtHR5U5m2_h"]
 
   },
 
@@ -34,7 +34,7 @@ module.exports = {
     try {
       const senderID = event.senderID;
 
-      const loadingMessage = await api.sendMessage("𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝗮 𝘆𝗼𝘂𝗿 𝗿𝗮𝗻𝗱𝗼𝗺 𝗺𝘂𝘀𝗶𝗰 𝗽𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁... 🌸👾", event.threadID, null, event.messageID);
+      const loadingMessage = await api.sendMessage("𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗿𝗮𝗻𝗱𝗼𝗺 𝗺𝘂𝘀𝗶𝗰 𝗽𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁... 🌸👾", event.threadID, null, event.messageID);
 
       if (args.length === 0) {
         const categoryList = Object.keys(this.music).join(', ');
