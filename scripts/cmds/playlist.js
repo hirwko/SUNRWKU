@@ -10,7 +10,7 @@ module.exports = {
   music: {
 
     norzum: ["PL1TrQgiilM_Y1oGwdcGdpnu_XIig_lURL"],
-    rajveer:["PLaw6FN8v2PpAdkjtrcRgeTgtHR5U5m2_h&si=hsezw1vb28nQoiQi"]
+    rajveer:["PLaw6FN8v2PpAdkjtrcRgeTgtHR5U5m2_h"]
 
   },
 
