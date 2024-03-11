@@ -4,7 +4,6 @@ const { getStreamFromURL } = global.utils;
 module.exports = {
     config: {
         name: "nijix",
-        aliases: [""],
         version: "1.0",
         author: "Kyouhei | Alwaysone",
         countDown: 5,
