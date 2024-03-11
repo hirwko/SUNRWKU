@@ -1,10 +1,11 @@
 const axios = require('axios');
+const badWords = ["sex","hentai","pussy","dick","xxx","porn","nude"];
 
 module.exports = {
   config: {
     name: "imagine",
     version: "1.1",
-    author: "Rajveer--",
+    author: "OtinXSandip",
     countDown: 10,
     role: 0,
     shortDescription: {
@@ -52,7 +53,7 @@ module.exports = {
     }   
     for (const word of badWords) {
       if (text.includes(word)) {  return message.reply({
-          body: "Sorry, but you are not allowed to use this prompt."  });
+          body: "Sorry, but you are not allowed to use that word."  });
       }
     }
 
@@ -69,11 +70,10 @@ module.exports = {
       let ui = info.messageID;
 api.setMessageReaction("⏳", event.messageID, () => {}, true);
       try {
-        const response = await axios.get(`https://shivadon.onrender.com/test?prompt=${encodeURIComponent(prompt)}&model=${model}`);
+        const response = await axios.get(`https://roxx-sandip.onrender.com/test?prompt=${encodeURIComponent(prompt)}&model=${model}`);
 api.setMessageReaction("✅", event.messageID, () => {}, true);
         const img = response.data.combinedImageUrl;
-
-message.unsend(ui);
+        message.unsend(ui);
         message.reply({
           body: `Here's your imagination 🖼.\nPlease reply with the image number (1, 2, 3, 4) to get the corresponding image in high resolution.`,
           attachment: await global.utils.getStreamFromURL(img)
@@ -101,9 +101,7 @@ message.unsend(ui);
     try {
       if (reply >= 1 && reply <= 4) {
         const img = imageUrls[`image${reply}`];
-
-    const op = await require('tinyurl').shorten(img); message.reply({ body: `${op}`,
-attachment: await global.utils.getStreamFromURL(img) });
+        message.reply({ attachment: await global.utils.getStreamFromURL(img) });
       } else {
         message.reply("Invalid image number. Please reply with a number between 1 and 4.");
         return;
