@@ -39,13 +39,14 @@ module.exports = {
   langs: {
     en: {			help: 
       `╭───⭓『 AI 』 
-│🐟Rajveer(kyouhei) 🐟gemini
+│🐟Rajveer 🐟gemini
 │🐟gpt 🐟sdxl 🐟xae
-│🐟sdxl2 🐟imagine 
+│🐟imagine 🐟mrbeast
 |🐟dalle 🐟test
 |🐟art 🐟sdxl
 |🐟sxai 🐟rashifal
 |🐟gojo 🐟levi
+|🐟nijix 
 ╰───────────⭔
 ╭───⭔『 ANIME 』
 │🐟waifu 🐟SAUCE
