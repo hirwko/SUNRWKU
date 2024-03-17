@@ -17,7 +17,7 @@ module.exports = {
  body: `
 Yo, my prefix is [  >  ]\n
 `,
- attachment: await global.utils.getStreamFromURL("https://imgur.com/9xU0Yfu.gif")
+ attachment: await global.utils.getStreamFromURL("https://imgur.com/1D8UIGv.gif")
  });
  }
  }
