@@ -1,1 +1,128 @@
-Put you fbstate here to activate your bot.
+[
+    {
+        "key": "datr",
+        "value": "dbZYZqsVaPN7q_uSLiGR5AI1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "sb",
+        "value": "dbZYZsx2RKiez8F9gC8zqq0V",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B1015x501x2.15625",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "2.15625",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "wd",
+        "value": "501x1015",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "fr",
+        "value": "0kqk6ByB4EzfEe09I.AWUDRgVSdd1zcEQviYf9rkXfS1c.BmWLZ1..AAA.0.0.BmW1Gh.AWW4KjBI0HA",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61559887744184",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "xs",
+        "value": "10%3AjSA9CUg0sTSiMA%3A2%3A1717260706%3A-1%3A443",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "m_page_voice",
+        "value": "61559887744184",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100731049%3BT%3A28621011",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2518%3Btimestamp%3A1717260718",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-06-01T16:52:07.672Z",
+        "lastAccessed": "2024-06-01T16:52:07.672Z"
+    }
+]
